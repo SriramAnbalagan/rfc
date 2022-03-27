@@ -1,0 +1,20 @@
+:root {
+  --red: #d32f2f;
+  --white: #ffffff; 
+}
+
+.lcp-input-style {
+  background-color: var(--white);
+}
+.MuiFormLabel-root {
+  transform: translateY(-50%);
+  top: 50%;
+}
+
+.required-field {
+  width: 100%;
+  text-align: right;
+  font-style: italic;
+  font-size: 0.8rem;
+  color: var(--red);
+}
